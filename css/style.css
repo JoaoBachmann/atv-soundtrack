@@ -46,11 +46,69 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html {
+	margin: 20vw
+}
 
 /*======================================
-                header
+                HEADER
+======================================*/
+header nav ul {
+	display: flex;
+}
+header nav ul li.signUp a{
+	margin: 0 5vw 0 33vw;
+}
+header nav ul li a {
+	color: burlywood;
+	text-decoration: none;
+}
+
+/*======================================
+                MEIO - Parte1
 ======================================*/
 
-header nav ul {
-    display: flex;
+main section.primeiro {
+	display: flex;
+}
+main section.primeiro span img {
+	margin: 5vw 0 0 0;
+}
+main section.primeiro h1 {
+	margin: 15vw 0 0 10vw;
+	font-size: 45px;
+}
+main section.primeiro div.texto {
+	margin: 3vw 0 0 9vw;
+	font-size: 20px;
+}
+main section.primeiro div.principal {
+	display: flex;
+	margin: 0 0 0 5vw;
+}
+main section.primeiro div.principal {
+	margin: 5vw 0 0 8vw;
+}
+main section.primeiro div.principal div p {
+	padding: 0 1.2vw 0.6vw 1.2vw;
+}
+main section.primeiro div.principal div span p {
+	color: grey;
+}
+/*======================================
+                MEIO - Parte2
+======================================*/
+main section.segunda {
+	width: 50%;
+	margin: 5vw 5vw 0 0;
+}
+main section.segunda h1 {
+	font-size: 45px;
+}
+main section.segunda p {
+	padding: 2vw 0 0 0;
+	color: grey;
+}
+main section.segunda div.lista {
+	text-align: right;
 }
