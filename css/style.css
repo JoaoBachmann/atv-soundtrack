@@ -46,69 +46,118 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-html {
-	margin: 20vw
-}
+/*Formata o documento html tirando todos os espaços, etc.*/
 
-/*======================================
-                HEADER
-======================================*/
-header nav ul {
+/*======================================================================
+                                Geral
+=======================================================================*/
+body{
+	margin: 1.5vw 20vw 2vw 20vw;
+	font-family: 'Poppins', sans-serif;;
+}
+/*======================================================================
+                                Header
+========================================================================*/
+header nav ul{
 	display: flex;
 }
-header nav ul li.signUp a{
-	margin: 0 5vw 0 33vw;
+header nav ul li.singUp a{
+	margin: 0 0 0 30vw;
+	
 }
-header nav ul li a {
-	color: burlywood;
+header nav ul li a{
 	text-decoration: none;
+	color: #553C16;
+	padding: 0 10px 0 10px;
+	font-family: 'Montserrat', sans-serif;
 }
-
-/*======================================
-                MEIO - Parte1
-======================================*/
-
-main section.primeiro {
+/*======================================================================
+                                Main - Parte 1
+========================================================================*/
+main section {
 	display: flex;
 }
-main section.primeiro span img {
-	margin: 5vw 0 0 0;
+main section div.portfolio img{
+	width: 18rem;
+	margin: 7vw 2vw 2vw 0;
 }
-main section.primeiro h1 {
-	margin: 15vw 0 0 10vw;
+main section div ul li h1{
 	font-size: 45px;
+	margin: 9vw 10vw 4vw 7vw;
 }
-main section.primeiro div.texto {
-	margin: 3vw 0 0 9vw;
-	font-size: 20px;
+main section div ul li p{
+	margin: 0vw 10vw 0vw 7vw;
+	line-height: 25px;
+	color: #404852;
 }
-main section.primeiro div.principal {
+main section div.divPrincipal{
 	display: flex;
-	margin: 0 0 0 5vw;
 }
-main section.primeiro div.principal {
-	margin: 5vw 0 0 8vw;
+main section div.divPrincipal img{
+	margin: 1.5vw 1vw 0vw 7vw;
 }
-main section.primeiro div.principal div p {
-	padding: 0 1.2vw 0.6vw 1.2vw;
+main section div.divPrincipal div.divSecundaria{
+	margin: 2vw 0vw 0vw 0vw;
+	font-size: 10px;
 }
-main section.primeiro div.principal div span p {
-	color: grey;
+main section div.divPrincipal div.divSecundaria p.p1{
+	color: #2C3A4B;
+	padding: 10px 0 0 0;
 }
-/*======================================
-                MEIO - Parte2
-======================================*/
-main section.segunda {
+
+
+/*======================================================================
+                                Main - Parte 2
+========================================================================*/
+section div.divPrincipalBrowse div h2{
+	font-size: 50px;
+	margin: 4vw 2vw 0 0;
+	line-height: 55px;
+}
+section div.divPrincipalBrowse div p{
+	margin: 2vw 10vw 0 0;
+	color: #404852;
+	line-height: 25px;
+}
+section div.divPrincipalBrowse{
+	display: flex;
+}
+section div.divPrincipalBrowse div ul li h3{
+	font-size: 30px;
+	/* margin: 3vw 10vw 0 0vw; */
+}
+
+section div.divPrincipalBrowse div ul li h3.primeiroH3{
+	margin: 4.5vw 0 0 0 ;
+}
+section div.divPrincipalBrowse div ul li h3 span{
+	color: #404852;
+	font-size: 23px;
+	margin: 0 1vw 0 0;
+}
+section div.divPrincipalBrowse div ul li p{
+	margin: 1vw 2vw 3vw 3vw;
+	font-size: 15px;
+}
+section div.info{
 	width: 50%;
-	margin: 5vw 5vw 0 0;
 }
-main section.segunda h1 {
-	font-size: 45px;
+/*======================================================================
+                                Footer
+========================================================================*/
+footer nav ul{
+	display: flex;
+	margin: 4vw 0 1.2vw 0;
+	justify-content: center;
 }
-main section.segunda p {
-	padding: 2vw 0 0 0;
-	color: grey;
+footer{
+	text-align: center;
 }
-main section.segunda div.lista {
-	text-align: right;
+footer nav ul li a span{
+	padding: 10px;
+	color: #21243D;
+	font-size: 1.5rem;
+}
+footer p{
+	font-size: 10px;
 }
